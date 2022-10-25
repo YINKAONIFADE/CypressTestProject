@@ -3,7 +3,8 @@
 describe("Quales online course management Test suite",  () => {
 
 it("Validate that quales online course management app launches successfully",  () => {
- cy.visit("http://tawdry-rule.surge.sh") 
+ //visiting the quales web app url
+    cy.visit("http://tawdry-rule.surge.sh") 
 
  //assert that training field shows
  cy.contains('Training').should("be.visible")
